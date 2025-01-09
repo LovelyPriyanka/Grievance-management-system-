@@ -1,0 +1,123 @@
+[
+    {
+        "name": "ishu",
+        "email": "ishu@gmail.com",
+        "number": "9876543210",
+        "product_name": "chocolates",
+        "product_type": "Other",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "resolved"
+    },
+    {
+        "name": "uday",
+        "email": "uday@gmail.com",
+        "number": "9876543210",
+        "product_name": "dry fruits",
+        "product_type": "Home Appliances",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "resolved"
+    },
+    {
+        "name": "lucky",
+        "email": "lucky@gmail.com",
+        "number": "9876543210",
+        "product_name": "cocunut",
+        "product_type": "Home Appliances",
+        "complaint": "taste not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "resolved"
+    },
+    {
+        "name": "supriya",
+        "email": "supriya@gmail.com",
+        "number": "9876543210",
+        "product_name": "dress",
+        "product_type": "Clothing",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "pending"
+    },
+    {
+        "name": "Priyanka",
+        "email": "Priyanka@gmail.com",
+        "number": "9014888501",
+        "product_name": "LAPTOP",
+        "product_type": "Electronics",
+        "complaint": "Not good one",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "resolved"
+    },
+    {
+        "name": "Priya",
+        "email": "Priyanka@gmail.com",
+        "number": "9014888501",
+        "product_name": "LAPTOP",
+        "product_type": "Electronics",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 2,
+        "status": "resolved"
+    },
+    {
+        "name": "Divya",
+        "email": "divya@gmail.com",
+        "number": "9876543212",
+        "product_name": "chocolates",
+        "product_type": "Home Appliances",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 2,
+        "status": "pending"
+    },
+    {
+        "name": "Divya",
+        "email": "divya@gmail.com",
+        "number": "9876543212",
+        "product_name": "chocolates",
+        "product_type": "Home Appliances",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "pending"
+    },
+    {
+        "name": "Priya",
+        "email": "Priyanka@gmail.com",
+        "number": "9014888501",
+        "product_name": "LAPTOP",
+        "product_type": "Electronics",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "pending"
+    },
+    {
+        "name": "vamshi",
+        "email": "vamshi@gmail.com",
+        "number": "9876543212",
+        "product_name": "camera",
+        "product_type": "Electronics",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "pending"
+    },
+    {
+        "name": "Priya",
+        "email": "priya@gmail.com",
+        "number": "9014888501",
+        "product_name": "camera",
+        "product_type": "Electronics",
+        "complaint": "not good",
+        "state": "Telangana",
+        "rating": 3,
+        "status": "pending"
+    }
+]

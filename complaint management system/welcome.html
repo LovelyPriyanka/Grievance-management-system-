@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to our Store</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #6a11cb, #25fc37);
+            color: white;
+            text-align: center;
+        }
+        header {
+            padding: 100px 20px;
+            background: url('shop1.jpg') no-repeat center center/cover;
+            color: white;
+            border-bottom: 3px solid white;
+        }
+        header h1 {
+            font-size: 3.5em;
+            margin: 50;
+            text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+        }
+        header p {
+            font-size: 1.3em;
+            margin-top: 15px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+        .scrolling-text {
+            font-size: 7em;
+            font-weight: bold;
+           
+            color: #fff;
+            padding: 10px 0;
+            white-space: nowrap;
+            overflow: hidden;
+            position: relative;
+            margin: 0;
+            animation: scroll-left 10s linear infinite;
+        }
+        @keyframes scroll-left {
+            0% {
+                transform: translateX(100%);
+            }
+            100% {
+                transform: translateX(-100%);
+            }
+        }
+        .button-container {
+            margin-top: 50px;
+        }
+        .view-button {
+            font-size: 1.5em;
+            background-color: #007bff;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s, transform 0.3s;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .view-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-5px);
+        }
+        .footer {
+            margin-top: 100px;
+            padding: 20px;
+            font-size: 0.9em;
+            background: rgba(0, 0, 0, 0.6);
+            border-top: 3px solid white;
+        }
+    </style>
+</head>
+<body>
+    <div class="scrolling-text">GRIEVANCE MANAGEMENT SYSTEM</div>
+    <header>
+        <h1>Welcome to our Store</h1>
+        <p>Explore a wide range of products at unbeatable prices!</p>
+    </header>
+
+    <div class="button-container">
+        <a href="shop.html" class="view-button">View Products</a>
+    </div>
+
+    <div class="footer">
+        &copy; 2025 our Store | Designed with ❤ for customers
+    </div>
+</body>
+</html>
+
+

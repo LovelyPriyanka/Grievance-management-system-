@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complaint Login</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('com.png');
+            background-color: #d1de3a;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 100%;
+            max-width: 400px;
+            margin: 170px auto;
+            padding: 20px;
+            background-color: aqua;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        input {
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+        button {
+            padding: 10px;
+            background-color: #ea4109;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: greenyellow;
+        }
+        /* Marquee styling */
+        .marquee {
+           
+            color: rgb(227, 17, 17);
+            padding: 10px 0;
+            font-size: 3em;
+            font-weight: bold;
+            text-align: center;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    </style>
+</head>
+<body>
+    <!-- Marquee -->
+    <div class="marquee">
+        <marquee behavior="scroll" direction="left">
+            LOGIN FOR GRIEVANCE
+        </marquee>
+    </div>
+
+    <div class="container">
+        <h1>Complaint Login</h1>
+        <form action="complaint_login.php" method="POST">
+            <input type="text" name="username" placeholder="Enter Phone Number or Email" required>
+            <input type="password" name="password" placeholder="Enter Purchase ID" required>
+            <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
+
+

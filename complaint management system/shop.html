@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Details</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: bisque;
+        }
+        header {
+            background-color: plum;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+        }
+        marquee {
+            font-size: 2em;
+            font-weight: bold;
+            color: rgb(84, 18, 217);
+          
+            padding: 15px;
+            border-radius: 6px;
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            padding: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .product-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .product-card img {
+            max-width: 100%;
+            border-radius: 8px 8px 0 0;
+        }
+        .product-card h3 {
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .product-card p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .product-card span {
+            display: block;
+            margin: 10px 0;
+            font-weight: bold;
+            color: #007bff;
+        }
+        .product-card a {
+            display: inline-block;
+            margin-top: 10px;
+            padding: 8px 12px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 0.9em;
+        }
+        .product-card a:hover {
+            background-color: #0056b3;
+        }
+        .admin-login {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #3128a7;
+            color: white;
+            padding: 8px 12px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .admin-login:hover {
+            background-color: #218838;
+        }
+        .complaint-button {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            background-color: #dc3545; /* Red color for complaint */
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 50px;
+            text-decoration: none;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s;
+        }
+        .complaint-button:hover {
+            background-color: #c82333;
+        }
+
+        .resolved-btn-container {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+        }
+       
+    </style>
+</head>
+<body>
+    <header>
+        <marquee behavior="scroll" direction="left">GRIEVANCE MANAGEMENT SYSTEM</marquee>
+        <p>SHOP WITH US</p>
+        <a href="admin_login.php" class="admin-login">Admin Login</a>
+    </header>
+
+    <!-- Complaint Button -->
+    <a href="complaint_login.html" class="complaint-button">Complaint Here</a>
+    <a href="worker_login.php" class="complaint-button" style="bottom: 100px; background-color: #dc13d2;">Worker Login</a>
+   
+
+    <div class="container">
+        <div class="product-grid">
+            <!-- Product Cards -->
+            <div class="product-card">
+                <img src="product1.jpg" alt="Product 1">
+                <h3>Product 1</h3>
+                <span>Price: 50</span>
+                <a href="form.html?productID=P001">Purchase</a>
+            </div>
+            <div class="product-card">
+                <img src="product2.jpeg" alt="Product 2">
+                <h3>Product 2</h3>
+                <span>Price: 70</span>
+                <a href="form.html?productID=P002">Purchase</a>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <img src="product3.jpg" alt="Product 3">
+                <h3>Product 3</h3>
+                <span>Price: 30000</span>
+                <a href="form.html?productID=P003">Purchase</a>
+            </div>
+            <!-- Product 4 -->
+            <div class="product-card">
+                <img src="product4.jpeg" alt="Product 4">
+                <h3>Product 4</h3>
+                <span>Price: 25000</span>
+                <a href="form.html?productID=P004">Purchase</a>
+            </div>
+            <!-- Product 5 -->
+            <div class="product-card">
+                <img src="product5.jpeg" alt="Product 5">
+                <h3>Product 5</h3>
+                <span>Price: 300</span>
+                <a href="form.html?productID=P005">Purchase</a>
+            </div>
+            <!-- Product 6 -->
+            <div class="product-card">
+                <img src="product6.jpg" alt="Product 6">
+                <h3>Product 6</h3>
+                <span>Price: 200</span>
+                <a href="form.html?productID=P006">Purchase</a>
+            </div>
+            <!-- Product 7 -->
+            <div class="product-card">
+                <img src="product7.jpg" alt="Product 7">
+                <h3>Product 7</h3>
+                <span>Price: 100</span>
+                <a href="form.html?productID=P007">Purchase</a>
+            </div>
+            <!-- Product 8 -->
+            <div class="product-card">
+                <img src="product8.jpg" alt="Product 8">
+                <h3>Product 8</h3>
+                <span>Price: 800</span>
+                <a href="form.html?productID=P008">Purchase</a>
+            </div>
+            <div class="product-card">
+                <img src="product9.jpg" alt="Product 9">
+                <h3>Product 9</h3>
+                <span>Price: 100</span>
+                <a href="form.html?productID=P008">Purchase</a>
+            </div>
+            <div class="product-card">
+                <img src="product10.jpg" alt="Product 10">
+                <h3>Product 10</h3>
+                <span>Price: 70</span>
+                <a href="form.html?productID=P008">Purchase</a>
+            </div>
+            <div class="product-card">
+                <img src="product11.jpg" alt="Product 11">
+                <h3>Product 11</h3>
+                <span>Price: 800</span>
+                <a href="form.html?productID=P008">Purchase</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
